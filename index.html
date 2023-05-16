@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		h1 {
+			color: #c81818;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 100px;
+		}
+
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+
+		button {
+			background-color: #da821f;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		button:hover {
+			opacity:0.5	}
+
+		.container {
+			padding: 16px;
+		}
+		div {
+		     flex-direction: column;
+			 color: aquamarine;
+		}
+	</style>
+</head>
+<body>
+	<h1>Login   Page
+		 </h1>
+		<header>
+			<nav>
+				<a href="#" class=""logo></a>
+				<ul>
+					<li> <a href="#">Home</a></li>
+				</ul>
+						</nav>
+		</header>
+
+	<form>
+		<div class="container">
+			<label for="username"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+			<button type="submit" onclick="login()">Login</button>
+		</div>
+	</form>
+
+	<script>
+		function login() {
+			// Get the values from the input fields
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+
+			// Check if the username and password are correct
+			if (username === "myusername" && password === "mypassword") {
+				<img src ="C:\Users\anuj2\OneDrive\Desktop\New folder (2)\Anuj.jpg.jpg" width "200" hight "400":> </img>
+			} else {
+				alert("Incorrect username or password!");
+			}
+		}
+		
+	</script>
+</body>
+</html>
